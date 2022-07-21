@@ -19,6 +19,7 @@ header {
     margin: auto;
     margin-top: 50px;
 
+
 }
 
 .header-item {
@@ -76,8 +77,22 @@ header {
     padding-right: 79px;
     padding-left: 23px;
     margin-bottom: -6px;
+    animation-duration: 10s;
+    animation-name: zoom;
 
     /* margin-bottom: auto; */
+}
+
+/* *******************animation******** */
+@keyframes zoom {
+    from {
+        opacity: 0;
+    }
+}
+
+to {
+    opacity: 5;
+}
 }
 
 /* live-transfer section start */
@@ -91,6 +106,7 @@ header {
     display: flex;
     width: 1321px;
     margin: auto;
+    margin-top: 50px;
 }
 
 .menu-item {
@@ -117,6 +133,7 @@ header {
     height: 64px;
     background-color: #FFFFFF;
     border-radius: 10px;
+    margin-top: 0%;
 
 }
 
@@ -196,6 +213,8 @@ h3 {
 
 #upcome-match {
     margin-bottom: 30px;
+    margin-top: 0%;
+
 }
 
 .menu-item-3 {
@@ -249,6 +268,16 @@ footer h3 {
     margin: auto;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.media-icon {
+    color: white;
+    width: 100%;
+
+}
+
+/* .media-icon a {
+    color: white;
+} */
 
 .contact {
     display: flex;
